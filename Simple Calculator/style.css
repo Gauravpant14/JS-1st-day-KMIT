@@ -1,0 +1,57 @@
+body{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.mainScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screen{
+   border: 2px solid rgb(27, 23, 23);
+   padding: 18px 64px;
+   border-radius: 5px;
+   background-color: rgb(190, 188, 188);
+}
+
+
+.head,.calC{
+    text-align: center;
+}
+
+tr td{
+    padding: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:honeydew;
+}
+
+button:hover{
+    background-color: rgb(129, 212, 129);
+    cursor: pointer;
+}
+
+.calC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outLine{
+    
+}
+table{
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
